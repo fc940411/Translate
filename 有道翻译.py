@@ -34,9 +34,7 @@ class MyFrame(wx.Frame):
 
         # 创建翻译按钮
         # self.button = wx.Button(self.panel, label='翻译', pos=(350,300), size=(100,40))
-        # self.button.Bind(wx.EVT_BUTTON, self.Trans)
-
-        # 添加容器
+        # self.button.Bind(wx.EVT_BUTTON, self.Trans
 
     def Trans(self, event):
         '''创建翻译事件'''
